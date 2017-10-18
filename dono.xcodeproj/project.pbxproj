@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F222DC491F97E76700B0AF04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222DC481F97E76700B0AF04 /* AppDelegate.swift */; };
+		F222DC4B1F97E76700B0AF04 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222DC4A1F97E76700B0AF04 /* RootViewController.swift */; };
+		F222DC4D1F97E76700B0AF04 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222DC4C1F97E76700B0AF04 /* DataViewController.swift */; };
+		F222DC4F1F97E76700B0AF04 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222DC4E1F97E76700B0AF04 /* ModelController.swift */; };
+		F222DC521F97E76700B0AF04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F222DC501F97E76700B0AF04 /* Main.storyboard */; };
+		F222DC541F97E76700B0AF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F222DC531F97E76700B0AF04 /* Assets.xcassets */; };
+		F222DC571F97E76700B0AF04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F222DC551F97E76700B0AF04 /* LaunchScreen.storyboard */; };
+		F222DC621F97E76700B0AF04 /* donoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222DC611F97E76700B0AF04 /* donoTests.swift */; };
+		F222DC6D1F97E76700B0AF04 /* donoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222DC6C1F97E76700B0AF04 /* donoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F222DC5E1F97E76700B0AF04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F222DC3D1F97E76700B0AF04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F222DC441F97E76700B0AF04;
+			remoteInfo = dono;
+		};
+		F222DC691F97E76700B0AF04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F222DC3D1F97E76700B0AF04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F222DC441F97E76700B0AF04;
+			remoteInfo = dono;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F222DC451F97E76700B0AF04 /* dono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dono.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F222DC481F97E76700B0AF04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F222DC4A1F97E76700B0AF04 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F222DC4C1F97E76700B0AF04 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		F222DC4E1F97E76700B0AF04 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		F222DC511F97E76700B0AF04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F222DC531F97E76700B0AF04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F222DC561F97E76700B0AF04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F222DC581F97E76700B0AF04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F222DC5D1F97E76700B0AF04 /* donoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = donoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F222DC611F97E76700B0AF04 /* donoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donoTests.swift; sourceTree = "<group>"; };
+		F222DC631F97E76700B0AF04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F222DC681F97E76700B0AF04 /* donoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = donoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F222DC6C1F97E76700B0AF04 /* donoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donoUITests.swift; sourceTree = "<group>"; };
+		F222DC6E1F97E76700B0AF04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F222DC421F97E76700B0AF04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F222DC5A1F97E76700B0AF04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F222DC651F97E76700B0AF04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F222DC3C1F97E76700B0AF04 = {
+			isa = PBXGroup;
+			children = (
+				F222DC471F97E76700B0AF04 /* dono */,
+				F222DC601F97E76700B0AF04 /* donoTests */,
+				F222DC6B1F97E76700B0AF04 /* donoUITests */,
+				F222DC461F97E76700B0AF04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F222DC461F97E76700B0AF04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F222DC451F97E76700B0AF04 /* dono.app */,
+				F222DC5D1F97E76700B0AF04 /* donoTests.xctest */,
+				F222DC681F97E76700B0AF04 /* donoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F222DC471F97E76700B0AF04 /* dono */ = {
+			isa = PBXGroup;
+			children = (
+				F222DC481F97E76700B0AF04 /* AppDelegate.swift */,
+				F222DC4A1F97E76700B0AF04 /* RootViewController.swift */,
+				F222DC4C1F97E76700B0AF04 /* DataViewController.swift */,
+				F222DC4E1F97E76700B0AF04 /* ModelController.swift */,
+				F222DC501F97E76700B0AF04 /* Main.storyboard */,
+				F222DC531F97E76700B0AF04 /* Assets.xcassets */,
+				F222DC551F97E76700B0AF04 /* LaunchScreen.storyboard */,
+				F222DC581F97E76700B0AF04 /* Info.plist */,
+			);
+			path = dono;
+			sourceTree = "<group>";
+		};
+		F222DC601F97E76700B0AF04 /* donoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F222DC611F97E76700B0AF04 /* donoTests.swift */,
+				F222DC631F97E76700B0AF04 /* Info.plist */,
+			);
+			path = donoTests;
+			sourceTree = "<group>";
+		};
+		F222DC6B1F97E76700B0AF04 /* donoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F222DC6C1F97E76700B0AF04 /* donoUITests.swift */,
+				F222DC6E1F97E76700B0AF04 /* Info.plist */,
+			);
+			path = donoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F222DC441F97E76700B0AF04 /* dono */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F222DC711F97E76700B0AF04 /* Build configuration list for PBXNativeTarget "dono" */;
+			buildPhases = (
+				F222DC411F97E76700B0AF04 /* Sources */,
+				F222DC421F97E76700B0AF04 /* Frameworks */,
+				F222DC431F97E76700B0AF04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dono;
+			productName = dono;
+			productReference = F222DC451F97E76700B0AF04 /* dono.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F222DC5C1F97E76700B0AF04 /* donoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F222DC741F97E76700B0AF04 /* Build configuration list for PBXNativeTarget "donoTests" */;
+			buildPhases = (
+				F222DC591F97E76700B0AF04 /* Sources */,
+				F222DC5A1F97E76700B0AF04 /* Frameworks */,
+				F222DC5B1F97E76700B0AF04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F222DC5F1F97E76700B0AF04 /* PBXTargetDependency */,
+			);
+			name = donoTests;
+			productName = donoTests;
+			productReference = F222DC5D1F97E76700B0AF04 /* donoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F222DC671F97E76700B0AF04 /* donoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F222DC771F97E76700B0AF04 /* Build configuration list for PBXNativeTarget "donoUITests" */;
+			buildPhases = (
+				F222DC641F97E76700B0AF04 /* Sources */,
+				F222DC651F97E76700B0AF04 /* Frameworks */,
+				F222DC661F97E76700B0AF04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F222DC6A1F97E76700B0AF04 /* PBXTargetDependency */,
+			);
+			name = donoUITests;
+			productName = donoUITests;
+			productReference = F222DC681F97E76700B0AF04 /* donoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F222DC3D1F97E76700B0AF04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Anthony Kantor";
+				TargetAttributes = {
+					F222DC441F97E76700B0AF04 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F222DC5C1F97E76700B0AF04 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F222DC441F97E76700B0AF04;
+					};
+					F222DC671F97E76700B0AF04 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F222DC441F97E76700B0AF04;
+					};
+				};
+			};
+			buildConfigurationList = F222DC401F97E76700B0AF04 /* Build configuration list for PBXProject "dono" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F222DC3C1F97E76700B0AF04;
+			productRefGroup = F222DC461F97E76700B0AF04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F222DC441F97E76700B0AF04 /* dono */,
+				F222DC5C1F97E76700B0AF04 /* donoTests */,
+				F222DC671F97E76700B0AF04 /* donoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F222DC431F97E76700B0AF04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F222DC571F97E76700B0AF04 /* LaunchScreen.storyboard in Resources */,
+				F222DC541F97E76700B0AF04 /* Assets.xcassets in Resources */,
+				F222DC521F97E76700B0AF04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F222DC5B1F97E76700B0AF04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F222DC661F97E76700B0AF04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F222DC411F97E76700B0AF04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F222DC4B1F97E76700B0AF04 /* RootViewController.swift in Sources */,
+				F222DC4F1F97E76700B0AF04 /* ModelController.swift in Sources */,
+				F222DC4D1F97E76700B0AF04 /* DataViewController.swift in Sources */,
+				F222DC491F97E76700B0AF04 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F222DC591F97E76700B0AF04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F222DC621F97E76700B0AF04 /* donoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F222DC641F97E76700B0AF04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F222DC6D1F97E76700B0AF04 /* donoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F222DC5F1F97E76700B0AF04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F222DC441F97E76700B0AF04 /* dono */;
+			targetProxy = F222DC5E1F97E76700B0AF04 /* PBXContainerItemProxy */;
+		};
+		F222DC6A1F97E76700B0AF04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F222DC441F97E76700B0AF04 /* dono */;
+			targetProxy = F222DC691F97E76700B0AF04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F222DC501F97E76700B0AF04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F222DC511F97E76700B0AF04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F222DC551F97E76700B0AF04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F222DC561F97E76700B0AF04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F222DC6F1F97E76700B0AF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F222DC701F97E76700B0AF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F222DC721F97E76700B0AF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X83N86N45W;
+				INFOPLIST_FILE = dono/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dono.ly.dono;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F222DC731F97E76700B0AF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X83N86N45W;
+				INFOPLIST_FILE = dono/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dono.ly.dono;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F222DC751F97E76700B0AF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X83N86N45W;
+				INFOPLIST_FILE = donoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dono.ly.donoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dono.app/dono";
+			};
+			name = Debug;
+		};
+		F222DC761F97E76700B0AF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X83N86N45W;
+				INFOPLIST_FILE = donoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dono.ly.donoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dono.app/dono";
+			};
+			name = Release;
+		};
+		F222DC781F97E76700B0AF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X83N86N45W;
+				INFOPLIST_FILE = donoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dono.ly.donoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dono;
+			};
+			name = Debug;
+		};
+		F222DC791F97E76700B0AF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X83N86N45W;
+				INFOPLIST_FILE = donoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dono.ly.donoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dono;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F222DC401F97E76700B0AF04 /* Build configuration list for PBXProject "dono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F222DC6F1F97E76700B0AF04 /* Debug */,
+				F222DC701F97E76700B0AF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F222DC711F97E76700B0AF04 /* Build configuration list for PBXNativeTarget "dono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F222DC721F97E76700B0AF04 /* Debug */,
+				F222DC731F97E76700B0AF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F222DC741F97E76700B0AF04 /* Build configuration list for PBXNativeTarget "donoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F222DC751F97E76700B0AF04 /* Debug */,
+				F222DC761F97E76700B0AF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F222DC771F97E76700B0AF04 /* Build configuration list for PBXNativeTarget "donoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F222DC781F97E76700B0AF04 /* Debug */,
+				F222DC791F97E76700B0AF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F222DC3D1F97E76700B0AF04 /* Project object */;
+}
