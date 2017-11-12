@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2116DF91FB7CD2400D2CE0C /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2116DF81FB7CD2400D2CE0C /* PhoneNumberViewController.swift */; };
+		F2116DFB1FB7D70A00D2CE0C /* VeriicationViewControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2116DFA1FB7D70A00D2CE0C /* VeriicationViewControlller.swift */; };
+		F2116DFD1FB7DF7700D2CE0C /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2116DFC1FB7DF7700D2CE0C /* LogViewController.swift */; };
 		F222DC491F97E76700B0AF04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222DC481F97E76700B0AF04 /* AppDelegate.swift */; };
 		F222DC4B1F97E76700B0AF04 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222DC4A1F97E76700B0AF04 /* RootViewController.swift */; };
 		F222DC4D1F97E76700B0AF04 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222DC4C1F97E76700B0AF04 /* DataViewController.swift */; };
@@ -16,6 +19,8 @@
 		F222DC571F97E76700B0AF04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F222DC551F97E76700B0AF04 /* LaunchScreen.storyboard */; };
 		F222DC621F97E76700B0AF04 /* donoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222DC611F97E76700B0AF04 /* donoTests.swift */; };
 		F222DC6D1F97E76700B0AF04 /* donoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222DC6C1F97E76700B0AF04 /* donoUITests.swift */; };
+		F2B0462B1FB72101007B7F3E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0462A1FB72101007B7F3E /* RegisterViewController.swift */; };
+		F2B0462D1FB7A5D6007B7F3E /* ConnectEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0462C1FB7A5D6007B7F3E /* ConnectEmailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2116DF81FB7CD2400D2CE0C /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
+		F2116DFA1FB7D70A00D2CE0C /* VeriicationViewControlller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeriicationViewControlller.swift; sourceTree = "<group>"; };
+		F2116DFC1FB7DF7700D2CE0C /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
 		F222DC451F97E76700B0AF04 /* dono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dono.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F222DC481F97E76700B0AF04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F222DC4A1F97E76700B0AF04 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +59,8 @@
 		F222DC681F97E76700B0AF04 /* donoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = donoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F222DC6C1F97E76700B0AF04 /* donoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donoUITests.swift; sourceTree = "<group>"; };
 		F222DC6E1F97E76700B0AF04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B0462A1FB72101007B7F3E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F2B0462C1FB7A5D6007B7F3E /* ConnectEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectEmailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +114,13 @@
 				F222DC481F97E76700B0AF04 /* AppDelegate.swift */,
 				F222DC4A1F97E76700B0AF04 /* RootViewController.swift */,
 				F222DC4C1F97E76700B0AF04 /* DataViewController.swift */,
+				F2B0462A1FB72101007B7F3E /* RegisterViewController.swift */,
+				F2B0462C1FB7A5D6007B7F3E /* ConnectEmailViewController.swift */,
 				F222DC4E1F97E76700B0AF04 /* ModelController.swift */,
 				F222DC501F97E76700B0AF04 /* Main.storyboard */,
+				F2116DFC1FB7DF7700D2CE0C /* LogViewController.swift */,
+				F2116DFA1FB7D70A00D2CE0C /* VeriicationViewControlller.swift */,
+				F2116DF81FB7CD2400D2CE0C /* PhoneNumberViewController.swift */,
 				F222DC531F97E76700B0AF04 /* Assets.xcassets */,
 				F222DC551F97E76700B0AF04 /* LaunchScreen.storyboard */,
 				F222DC581F97E76700B0AF04 /* Info.plist */,
@@ -265,9 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2116DFD1FB7DF7700D2CE0C /* LogViewController.swift in Sources */,
 				F222DC4B1F97E76700B0AF04 /* RootViewController.swift in Sources */,
+				F2116DF91FB7CD2400D2CE0C /* PhoneNumberViewController.swift in Sources */,
+				F2B0462B1FB72101007B7F3E /* RegisterViewController.swift in Sources */,
+				F2B0462D1FB7A5D6007B7F3E /* ConnectEmailViewController.swift in Sources */,
 				F222DC4F1F97E76700B0AF04 /* ModelController.swift in Sources */,
 				F222DC4D1F97E76700B0AF04 /* DataViewController.swift in Sources */,
+				F2116DFB1FB7D70A00D2CE0C /* VeriicationViewControlller.swift in Sources */,
 				F222DC491F97E76700B0AF04 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
