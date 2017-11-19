@@ -14,9 +14,7 @@
 
 import UIKit
 
-// <!-- SMARTDOWN_IMPORT_LINKKIT -->
-import LinkKit
-// <!-- SMARTDOWN_IMPORT_LINKKIT -->
+
 
 class AccountSetupViewController: UIViewController {
     
@@ -30,7 +28,6 @@ class AccountSetupViewController: UIViewController {
         search.layer.borderColor = UIColor(red: (154/255), green: (216/255), blue: (153/255), alpha: 1).cgColor
         search.layer.cornerRadius = 2;
         search.layer.borderWidth = 1;
-       
         // Do any additional setup after loading the view, typically from a nib.
     }
     

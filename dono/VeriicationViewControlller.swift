@@ -8,7 +8,7 @@
 
 import UIKit
 
-class VerificationViewController: UIViewController {
+class VerificationViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var verificationNumber: UITextField!
     @IBOutlet weak var verify: UIButton!
@@ -22,6 +22,13 @@ class VerificationViewController: UIViewController {
         verificationNumber.layer.cornerRadius = 2;
         verificationNumber.layer.borderWidth = 1;
         // Do any additional setup after loading the view, typically from a nib.
+        verificationNumber.delegate = self
+    }
+    
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        verificationNumber.resignFirstResponder()
+        return true
     }
     
     override func didReceiveMemoryWarning() {

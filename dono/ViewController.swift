@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var button: UIButton!
     @IBOutlet var label: UILabel!
-    @IBOutlet var buttonContainerView: UIView!
+    //@IBOutlet var buttonContainerView: UIView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -32,18 +32,22 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        button.isEnabled = false
+        //button.isEnabled = false
         let linkKitBundle  = Bundle(for: PLKPlaidLinkViewController.self)
         let linkKitVersion = linkKitBundle.object(forInfoDictionaryKey: "CFBundleShortVersionString")!
         let linkKitBuild   = linkKitBundle.object(forInfoDictionaryKey: kCFBundleVersionKey as String)!
         let linkKitName    = linkKitBundle.object(forInfoDictionaryKey: kCFBundleNameKey as String)!
-        label.text         = "Swift — \(linkKitName) \(linkKitVersion)+\(linkKitBuild)"
+        //label.text         = "Swift — \(linkKitName) \(linkKitVersion)+\(linkKitBuild)"
+        button.layer.cornerRadius = 2;
+        button.layer.borderWidth = 1;
+        button.layer.borderColor = UIColor.white.cgColor
+        button.layer.backgroundColor = UIColor(red: (154/255), green: (216/255), blue: (153/255), alpha: 1).cgColor
         
-        let shadowColor    = #colorLiteral(red: 0.01176470588, green: 0.1921568627, blue: 0.337254902, alpha: 0.1)
-        buttonContainerView.layer.shadowColor   = shadowColor.cgColor
-        buttonContainerView.layer.shadowOffset  = CGSize(width: 0, height: -1)
-        buttonContainerView.layer.shadowRadius  = 2
-        buttonContainerView.layer.shadowOpacity = 1
+      //  let shadowColor    = #colorLiteral(red: 0.01176470588, green: 0.1921568627, blue: 0.337254902, alpha: 0.1)
+      //  buttonContainerView.layer.shadowColor   = shadowColor.cgColor
+       // buttonContainerView.layer.shadowOffset  = CGSize(width: 0, height: -1)
+        //buttonContainerView.layer.shadowRadius  = 2
+        //buttonContainerView.layer.shadowOpacity = 1
     }
     
     @objc func didReceiveNotification(_ notification: NSNotification) {
@@ -63,6 +67,8 @@ class ViewController: UIViewController {
     }
     
     func handleSuccessWithToken(_ publicToken: String, metadata: [String : Any]?) {
+        performSegue(withIdentifier: "signedUp", sender: self)
+        
         presentAlertViewWithTitle("Success", message: "token: \(publicToken)\nmetadata: \(metadata ?? [:])")
     }
     

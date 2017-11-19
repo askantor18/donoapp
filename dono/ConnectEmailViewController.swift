@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ConnectEmailViewController: UIViewController {
+class ConnectEmailViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var connect: UIButton!
     @IBOutlet weak var emailAddress: UITextField!
@@ -26,15 +26,28 @@ class ConnectEmailViewController: UIViewController {
         passwordRegister.layer.borderColor = UIColor(red: (154/255), green: (216/255), blue: (153/255), alpha: 1).cgColor
         passwordRegister.layer.cornerRadius = 2;
         passwordRegister.layer.borderWidth = 1;
+
         //registerEmail.layer.borderWidth = 0;
         // Do any additional setup after loading the view, typically from a nib.
+        emailAddress.delegate = self
+        passwordRegister.delegate = self
     }
     
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if textField == emailAddress {
+            passwordRegister.becomeFirstResponder()
+        }else {
+            passwordRegister.resignFirstResponder()
+        }
+        return true
+    }
+   
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
     }

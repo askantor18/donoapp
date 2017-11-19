@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PhoneNumberViewController: UIViewController {
+class PhoneNumberViewController: UIViewController, UITextFieldDelegate {
     
 
     @IBOutlet weak var phoneNumber: UITextField!
@@ -23,6 +23,13 @@ class PhoneNumberViewController: UIViewController {
         phoneNumber.layer.cornerRadius = 2;
         phoneNumber.layer.borderWidth = 1;
         // Do any additional setup after loading the view, typically from a nib.
+        phoneNumber.delegate = self
+    }
+    
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        phoneNumber.resignFirstResponder()
+        return true
     }
     
     override func didReceiveMemoryWarning() {
