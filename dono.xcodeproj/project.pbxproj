@@ -19,6 +19,11 @@
 		F222DC571F97E76700B0AF04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F222DC551F97E76700B0AF04 /* LaunchScreen.storyboard */; };
 		F222DC621F97E76700B0AF04 /* donoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222DC611F97E76700B0AF04 /* donoTests.swift */; };
 		F222DC6D1F97E76700B0AF04 /* donoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222DC6C1F97E76700B0AF04 /* donoUITests.swift */; };
+		F231873B1FC0FE5A002C7BBE /* LinkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F231873A1FC0FE5A002C7BBE /* LinkKit.framework */; };
+		F231873D1FC102A6002C7BBE /* AccountSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F231873C1FC102A6002C7BBE /* AccountSetupViewController.swift */; };
+		F231873E1FC1064A002C7BBE /* LinkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F231873A1FC0FE5A002C7BBE /* LinkKit.framework */; };
+		F231873F1FC1064A002C7BBE /* LinkKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F231873A1FC0FE5A002C7BBE /* LinkKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F23187421FC11E8D002C7BBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23187411FC11E8D002C7BBE /* ViewController.swift */; };
 		F252D0F41FB803240075E5FB /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F252D0F31FB803240075E5FB /* AccountViewController.swift */; };
 		F252D0F61FB8036B0075E5FB /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F252D0F51FB8036B0075E5FB /* SettingViewController.swift */; };
 		F2B0462B1FB72101007B7F3E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0462A1FB72101007B7F3E /* RegisterViewController.swift */; };
@@ -42,6 +47,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F23187401FC1064A002C7BBE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F231873F1FC1064A002C7BBE /* LinkKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		F2116DF81FB7CD2400D2CE0C /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
 		F2116DFA1FB7D70A00D2CE0C /* VeriicationViewControlller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeriicationViewControlller.swift; sourceTree = "<group>"; };
@@ -61,6 +80,9 @@
 		F222DC681F97E76700B0AF04 /* donoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = donoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F222DC6C1F97E76700B0AF04 /* donoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donoUITests.swift; sourceTree = "<group>"; };
 		F222DC6E1F97E76700B0AF04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F231873A1FC0FE5A002C7BBE /* LinkKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LinkKit.framework; sourceTree = "<group>"; };
+		F231873C1FC102A6002C7BBE /* AccountSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSetupViewController.swift; sourceTree = "<group>"; };
+		F23187411FC11E8D002C7BBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F252D0F31FB803240075E5FB /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		F252D0F51FB8036B0075E5FB /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		F2B0462A1FB72101007B7F3E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F231873B1FC0FE5A002C7BBE /* LinkKit.framework in Frameworks */,
+				F231873E1FC1064A002C7BBE /* LinkKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +119,7 @@
 		F222DC3C1F97E76700B0AF04 = {
 			isa = PBXGroup;
 			children = (
+				F231873A1FC0FE5A002C7BBE /* LinkKit.framework */,
 				F222DC471F97E76700B0AF04 /* dono */,
 				F222DC601F97E76700B0AF04 /* donoTests */,
 				F222DC6B1F97E76700B0AF04 /* donoUITests */,
@@ -122,11 +147,13 @@
 				F2B0462C1FB7A5D6007B7F3E /* ConnectEmailViewController.swift */,
 				F222DC4E1F97E76700B0AF04 /* ModelController.swift */,
 				F222DC501F97E76700B0AF04 /* Main.storyboard */,
+				F23187411FC11E8D002C7BBE /* ViewController.swift */,
 				F2116DFC1FB7DF7700D2CE0C /* LogViewController.swift */,
 				F2116DFA1FB7D70A00D2CE0C /* VeriicationViewControlller.swift */,
 				F2116DF81FB7CD2400D2CE0C /* PhoneNumberViewController.swift */,
 				F252D0F31FB803240075E5FB /* AccountViewController.swift */,
 				F252D0F51FB8036B0075E5FB /* SettingViewController.swift */,
+				F231873C1FC102A6002C7BBE /* AccountSetupViewController.swift */,
 				F222DC531F97E76700B0AF04 /* Assets.xcassets */,
 				F222DC551F97E76700B0AF04 /* LaunchScreen.storyboard */,
 				F222DC581F97E76700B0AF04 /* Info.plist */,
@@ -162,6 +189,7 @@
 				F222DC411F97E76700B0AF04 /* Sources */,
 				F222DC421F97E76700B0AF04 /* Frameworks */,
 				F222DC431F97E76700B0AF04 /* Resources */,
+				F23187401FC1064A002C7BBE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -290,9 +318,11 @@
 				F222DC4B1F97E76700B0AF04 /* RootViewController.swift in Sources */,
 				F252D0F61FB8036B0075E5FB /* SettingViewController.swift in Sources */,
 				F2116DF91FB7CD2400D2CE0C /* PhoneNumberViewController.swift in Sources */,
+				F231873D1FC102A6002C7BBE /* AccountSetupViewController.swift in Sources */,
 				F2B0462B1FB72101007B7F3E /* RegisterViewController.swift in Sources */,
 				F2B0462D1FB7A5D6007B7F3E /* ConnectEmailViewController.swift in Sources */,
 				F222DC4F1F97E76700B0AF04 /* ModelController.swift in Sources */,
+				F23187421FC11E8D002C7BBE /* ViewController.swift in Sources */,
 				F252D0F41FB803240075E5FB /* AccountViewController.swift in Sources */,
 				F222DC4D1F97E76700B0AF04 /* DataViewController.swift in Sources */,
 				F2116DFB1FB7D70A00D2CE0C /* VeriicationViewControlller.swift in Sources */,
@@ -464,6 +494,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X83N86N45W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = dono/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dono.ly.dono;
@@ -479,6 +513,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X83N86N45W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = dono/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dono.ly.dono;
