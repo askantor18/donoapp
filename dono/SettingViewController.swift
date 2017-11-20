@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SettingViewController: UIViewController {
+class SettingViewController: UIViewController, UITextFieldDelegate {
     
     
 
@@ -46,6 +46,24 @@ class SettingViewController: UIViewController {
         submit.layer.borderColor = UIColor.white.cgColor
         submit.layer.backgroundColor = UIColor(red: (154/255), green: (216/255), blue: (153/255), alpha: 1).cgColor
         // Do any additional setup after loading the view, typically from a nib.
+        currentPass.delegate = self
+        newPass.delegate = self
+        passConfirm.delegate = self
+
+    }
+    
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if textField == currentPass {
+            newPass.becomeFirstResponder()
+        }
+        else if textField == newPass {
+            passConfirm.becomeFirstResponder()
+        }
+        else {
+            passConfirm.resignFirstResponder()
+        }
+        return true
     }
     
     override func didReceiveMemoryWarning() {
