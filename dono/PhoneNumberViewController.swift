@@ -18,8 +18,8 @@ class PhoneNumberViewController: UIViewController, UITextFieldDelegate {
         contButton.layer.cornerRadius = 2;
         contButton.layer.borderWidth = 1;
         contButton.layer.borderColor = UIColor.white.cgColor
-        contButton.layer.backgroundColor = UIColor(red: (154/255), green: (216/255), blue: (153/255), alpha: 1).cgColor
-        phoneNumber.layer.borderColor = UIColor(red: (154/255), green: (216/255), blue: (153/255), alpha: 1).cgColor
+        contButton.layer.backgroundColor = UIColor(red: (66/255), green: (168/255), blue: (89/255), alpha: 1).cgColor
+        phoneNumber.layer.borderColor = UIColor(red: (66/255), green: (168/255), blue: (89/255), alpha: 1).cgColor
         phoneNumber.layer.cornerRadius = 2;
         phoneNumber.layer.borderWidth = 1;
         // Do any additional setup after loading the view, typically from a nib.

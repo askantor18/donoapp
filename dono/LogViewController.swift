@@ -16,14 +16,15 @@ class LogViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         login.layer.cornerRadius = 2;
         login.layer.borderWidth = 1;
         login.layer.borderColor = UIColor.white.cgColor
-        login.layer.backgroundColor = UIColor(red: (154/255), green: (216/255), blue: (153/255), alpha: 1).cgColor
-        emailadd.layer.borderColor = UIColor(red: (154/255), green: (216/255), blue: (153/255), alpha: 1).cgColor
+        login.layer.backgroundColor = UIColor(red: (66/255), green: (168/255), blue: (89/255), alpha: 1).cgColor
+        emailadd.layer.borderColor = UIColor(red: (66/255), green: (168/255), blue: (89/255), alpha: 1).cgColor
         emailadd.layer.cornerRadius = 2;
         emailadd.layer.borderWidth = 1;
-        password.layer.borderColor = UIColor(red: (154/255), green: (216/255), blue: (153/255), alpha: 1).cgColor
+        password.layer.borderColor = UIColor(red: (66/255), green: (168/255), blue: (89/255), alpha: 1).cgColor
         password.layer.cornerRadius = 2;
         password.layer.borderWidth = 1;
         //registerEmail.layer.borderWidth = 0;

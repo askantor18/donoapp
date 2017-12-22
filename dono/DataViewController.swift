@@ -18,6 +18,9 @@ class DataViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.gradientLayer.colors = [UIColor(red: (82/255), green: (159/255), blue: (89/255), alpha: 1).cgColor,UIColor(red: (105/255), green: (178/255), blue: (107/255), alpha: 1).cgColor]
+        
+        view.gradientLayer.gradient = GradientPoint.rightLeft.draw()
         regButton.layer.cornerRadius = 2;
         regButton.layer.borderWidth = 1;
         regButton.layer.borderColor = UIColor.white.cgColor

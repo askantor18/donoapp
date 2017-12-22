@@ -17,8 +17,8 @@ class VerificationViewController: UIViewController, UITextFieldDelegate {
         verify.layer.cornerRadius = 2;
         verify.layer.borderWidth = 1;
         verify.layer.borderColor = UIColor.white.cgColor
-        verify.layer.backgroundColor = UIColor(red: (154/255), green: (216/255), blue: (153/255), alpha: 1).cgColor
-        verificationNumber.layer.borderColor = UIColor(red: (154/255), green: (216/255), blue: (153/255), alpha: 1).cgColor
+        verify.layer.backgroundColor = UIColor(red: (66/255), green: (168/255), blue: (89/255), alpha: 1).cgColor
+        verificationNumber.layer.borderColor = UIColor(red: (66/255), green: (168/255), blue: (89/255), alpha: 1).cgColor
         verificationNumber.layer.cornerRadius = 2;
         verificationNumber.layer.borderWidth = 1;
         // Do any additional setup after loading the view, typically from a nib.

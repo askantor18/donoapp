@@ -29,6 +29,7 @@
 		F252D0F61FB8036B0075E5FB /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F252D0F51FB8036B0075E5FB /* SettingViewController.swift */; };
 		F2B0462B1FB72101007B7F3E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0462A1FB72101007B7F3E /* RegisterViewController.swift */; };
 		F2B0462D1FB7A5D6007B7F3E /* ConnectEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0462C1FB7A5D6007B7F3E /* ConnectEmailViewController.swift */; };
+		F2C1948E1FEC40BB003857FA /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C1948D1FEC40BB003857FA /* Gradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		F252D0F51FB8036B0075E5FB /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		F2B0462A1FB72101007B7F3E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		F2B0462C1FB7A5D6007B7F3E /* ConnectEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectEmailViewController.swift; sourceTree = "<group>"; };
+		F2C1948D1FEC40BB003857FA /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				F222DC531F97E76700B0AF04 /* Assets.xcassets */,
 				F222DC551F97E76700B0AF04 /* LaunchScreen.storyboard */,
 				F222DC581F97E76700B0AF04 /* Info.plist */,
+				F2C1948D1FEC40BB003857FA /* Gradient.swift */,
 			);
 			path = dono;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				F252D0F61FB8036B0075E5FB /* SettingViewController.swift in Sources */,
 				F2116DF91FB7CD2400D2CE0C /* PhoneNumberViewController.swift in Sources */,
 				F231873D1FC102A6002C7BBE /* AccountSetupViewController.swift in Sources */,
+				F2C1948E1FEC40BB003857FA /* Gradient.swift in Sources */,
 				F2B0462B1FB72101007B7F3E /* RegisterViewController.swift in Sources */,
 				F2B0462D1FB7A5D6007B7F3E /* ConnectEmailViewController.swift in Sources */,
 				F222DC4F1F97E76700B0AF04 /* ModelController.swift in Sources */,

@@ -19,11 +19,11 @@ class ConnectEmailViewController: UIViewController, UITextFieldDelegate {
         connect.layer.cornerRadius = 2;
         connect.layer.borderWidth = 1;
         connect.layer.borderColor = UIColor.white.cgColor
-        connect.layer.backgroundColor = UIColor(red: (154/255), green: (216/255), blue: (153/255), alpha: 1).cgColor
-        emailAddress.layer.borderColor = UIColor(red: (154/255), green: (216/255), blue: (153/255), alpha: 1).cgColor
+        connect.layer.backgroundColor = UIColor(red: (66/255), green: (168/255), blue: (89/255), alpha: 1).cgColor
+        emailAddress.layer.borderColor = UIColor(red: (66/255), green: (168/255), blue: (89/255), alpha: 1).cgColor
         emailAddress.layer.cornerRadius = 2;
         emailAddress.layer.borderWidth = 1;
-        passwordRegister.layer.borderColor = UIColor(red: (154/255), green: (216/255), blue: (153/255), alpha: 1).cgColor
+        passwordRegister.layer.borderColor = UIColor(red: (66/255), green: (168/255), blue: (89/255), alpha: 1).cgColor
         passwordRegister.layer.cornerRadius = 2;
         passwordRegister.layer.borderWidth = 1;
 
